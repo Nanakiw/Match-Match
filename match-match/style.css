@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+p {
+    margin: 0;
+    padding: 0;
+    background-color: #17181C;
+    color:white;
+}
+
+#stats {
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+#stats p {
+    padding:0.5em;
+    font-size: 1.5em;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#game button {
+    width: 20%;
+    height: 6em;
+    margin: 0.5em;
+    border-style: none;
+    border-color: rgb(202, 202, 202);
+    background-color: #111111;
+    border-radius: 5%;
+}
+
+#game button p {
+    background-color:#111111;
+    visibility: hidden;
+}
+
+#game button:hover {
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: rgb(119, 119, 119);
+}
+
+#game button:focus {
+    outline:none;
+}
